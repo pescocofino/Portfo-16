@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Guerrilla&display=swap');
+
+:root{
+    --cor-letra: #f0f4ef;
+    --space-cadet: #2b2d42ff;
+    --cool-gray: #8d99aeff;
+    --antiflash-white: #edf2f4ff;
+    --red-pantone: #ef233cff;
+    --fire-engine-red: #d90429ff;
+    --fonte-texto:  "Poppins", sans-serif;
+    --fonte-titulo: "Protest Guerrilla", sans-serif;
+}
+
+
+
+body{
+    font-family: var(--fonte-texto);
+    background: var(--space-cadet)
+}
+
+.img-thumbnail{
+    border: 2px solid var(--cor-letra)
+}
+
+h1, h2, h3{
+    font-family: var(--fonte-titulo);
+    color: var(--cor-letra)
+}
+
+.card{
+    background-color: var(--fire-engine-red);
+    color: var(--cor-letra);
+    justify-content: center;
+}
+
+footer a{
+    color: var(--cor-letra);
+}
+
+p{
+    color: var(--antiflash-white);
+    font-size: 20px;
+}
+
+.modal-body{
+    background-color: var(--space-cadet);
+}
